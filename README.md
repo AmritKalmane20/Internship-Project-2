@@ -1,3 +1,11 @@
+## Internship Progress
+
+* [x] Week 1 – Environment Setup and Reconnaissance
+* [x] Week 2 – Vulnerability Assessment and Traffic Analysis
+* [ ] Week 3 – Security Misconfiguration and Access Control Testing
+* [ ] Week 4 – Final Reporting and Remediation
+
+
 # Week 1 – Environment Setup and Reconnaissance
 
 ## Project Overview
