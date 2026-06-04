@@ -1,45 +1,94 @@
-## Project Description
+# Web Application Penetration Testing (OWASP Top 10 Focus)
 
-This project is part of a Web Application Penetration Testing Internship focused on identifying and analyzing web application vulnerabilities based on the OWASP Top 10 Security Risks. The project involves setting up vulnerable web applications, performing reconnaissance, identifying security weaknesses, exploiting vulnerabilities in a controlled environment, and providing remediation recommendations.
+## Overview
 
-The assessment is conducted using industry-standard tools such as Burp Suite, OWASP Juice Shop, DVWA, Docker, and Kali Linux. The ultimate goal is to understand common web application attack vectors and develop practical penetration testing skills through hands-on security testing.
+This repository contains the work completed during a Web Application Penetration Testing Internship focused on identifying, analyzing, and documenting web application vulnerabilities based on the OWASP Top 10 Security Risks.
+
+The project uses intentionally vulnerable web applications such as OWASP Juice Shop and DVWA to simulate real-world security testing scenarios. Industry-standard tools including Burp Suite, Nmap, Docker, and Kali Linux are used to perform reconnaissance, traffic analysis, vulnerability assessment, exploitation, and remediation planning.
+
+---
+
+## Project Objectives
+
+* Understand and study OWASP Top 10 vulnerabilities.
+* Configure a professional penetration testing environment.
+* Perform web application reconnaissance and enumeration.
+* Identify and validate common security vulnerabilities.
+* Create Proof-of-Concept (PoC) demonstrations.
+* Document findings and remediation recommendations.
+* Develop practical web application security testing skills.
+
+---
 
 ## Project Roadmap
 
-### Week 1 – Environment Setup and Reconnaissance
+| Week   | Activities                                                                                        |
+| ------ | ------------------------------------------------------------------------------------------------- |
+| Week 1 | Environment Setup, OWASP Top 10 Study, Reconnaissance, Burp Suite Configuration                   |
+| Week 2 | SQL Injection, Broken Authentication, Cross-Site Scripting (XSS), Sensitive Data Exposure Testing |
+| Week 3 | Security Misconfiguration, Broken Access Control, Proof-of-Concept Development                    |
+| Week 4 | Final Report Preparation, Remediation Guidelines, Project Documentation                           |
 
-* Studied OWASP Top 10 vulnerabilities.
-* Configured the penetration testing environment.
-* Deployed OWASP Juice Shop and DVWA.
-* Configured Burp Suite for traffic interception.
-* Performed reconnaissance and endpoint discovery.
+---
 
-### Week 2 – Vulnerability Testing
+## Technologies and Tools
 
-* Tested for SQL Injection (SQLi).
-* Analyzed Broken Authentication vulnerabilities.
-* Performed Cross-Site Scripting (XSS) testing.
-* Investigated Sensitive Data Exposure issues.
-* Documented findings with screenshots and notes.
+* Kali Linux
+* OWASP Juice Shop
+* DVWA (Damn Vulnerable Web Application)
+* Burp Suite Community Edition
+* Nmap
+* Docker
+* Apache2
+* MariaDB
+* Firefox Browser
 
-### Week 3 – Advanced Security Assessment
+---
 
-* Tested for Security Misconfiguration vulnerabilities.
-* Evaluated Broken Access Control weaknesses.
-* Developed Proof-of-Concept (PoC) demonstrations.
-* Documented exploitation techniques and impacts.
+## Skills Demonstrated
 
-### Week 4 – Reporting and Remediation
+* Web Application Penetration Testing
+* OWASP Top 10 Assessment
+* Reconnaissance and Enumeration
+* HTTP Traffic Analysis
+* API Discovery and Analysis
+* Vulnerability Identification
+* Proof-of-Concept Development
+* Security Reporting and Documentation
+* Remediation Planning
 
-* Compiled a detailed penetration testing report.
-* Documented step-by-step exploitation procedures.
-* Provided remediation recommendations and security best practices.
-* Prepared project presentation and demonstration materials.
+---
 
-## Expected Outcomes
+## Internship Progress
 
-* Identification and validation of OWASP Top 10 vulnerabilities.
-* Practical experience with web application penetration testing.
-* Development of professional vulnerability assessment reports.
-* Understanding of remediation strategies and secure development practices.
-* Enhanced skills in reconnaissance, exploitation, and security analysis.
+* [x] Week 1 – Environment Setup and Reconnaissance
+* [x] Week 2 – Vulnerability Assessment and Traffic Analysis
+* [ ] Week 3 – Security Misconfiguration and Access Control Testing
+* [ ] Week 4 – Final Reporting and Remediation
+
+---
+
+## Repository Structure
+
+```text
+Internship-Project-2/
+├── README.md
+├── Week-1/
+│   ├── Report.pdf
+│   └── Screenshots/
+├── Week-2/
+│   ├── Report.pdf
+│   └── Screenshots/
+├── Week-3/
+└── Week-4/
+```
+
+---
+
+## Author
+
+**Amrit A. Kalmane**
+
+BCA Student | Cybersecurity Enthusiast | Penetration Testing Intern
+
+LinkedIn: https://www.linkedin.com/in/amrit-kalmane-345b3b244/
