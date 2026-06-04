@@ -245,6 +245,89 @@ Week-1/
 
 ---
 
+# Week 2 – Web Application Traffic Analysis and API Enumeration Using Burp Suite
+
+## Overview
+
+This repository documents the activities completed during Week 2 of my Web Application Penetration Testing Internship. The primary objective of this phase was to analyze web application traffic, enumerate APIs, understand request-response mechanisms, and identify potential attack surfaces using Burp Suite Community Edition.
+
+## Objectives
+
+* Understand HTTP and HTTPS communication
+* Capture and analyze web application traffic
+* Perform API endpoint enumeration
+* Identify request parameters and response structures
+* Analyze application behavior through intercepted traffic
+* Document findings for future vulnerability assessment
+
+## Tools Used
+
+| Tool                         | Purpose                         |
+| ---------------------------- | ------------------------------- |
+| Kali Linux                   | Penetration Testing Platform    |
+| Burp Suite Community Edition | Traffic Interception & Analysis |
+| Firefox Browser              | Web Application Testing         |
+| OWASP Juice Shop             | Vulnerable Target Application   |
+| Docker                       | Application Deployment          |
+
+## Activities Performed
+
+### Burp Suite Configuration
+
+* Configured Burp Suite as an intercepting proxy
+* Set browser proxy settings to route traffic through Burp
+* Verified successful interception of HTTP requests and responses
+
+### Traffic Analysis
+
+* Captured incoming and outgoing web requests
+* Examined HTTP headers, cookies, and session information
+* Analyzed application behavior through intercepted traffic
+
+### API Enumeration
+
+* Identified accessible API endpoints
+* Examined request methods (GET, POST, PUT, DELETE)
+* Reviewed parameters passed between client and server
+* Analyzed API responses for information disclosure
+
+### Request and Response Analysis
+
+* Studied request structures
+* Examined response codes and server behavior
+* Identified application functionalities exposed through APIs
+
+## Skills Demonstrated
+
+* Web Application Traffic Analysis
+* API Enumeration
+* Burp Suite Usage
+* HTTP Request Inspection
+* Endpoint Discovery
+* Security Assessment Methodology
+
+## Key Findings
+
+* Successfully intercepted web application traffic
+* Identified multiple API endpoints
+* Analyzed request-response communication
+* Documented application functionality exposed through APIs
+* Prepared the environment for further vulnerability assessment
+
+## Screenshots
+
+Include screenshots demonstrating:
+
+* Burp Suite Proxy Configuration
+* Intercepted HTTP Requests
+* HTTP History Analysis
+* API Endpoint Enumeration
+* Request and Response Inspection
+
+## Outcome
+
+The objectives of Week 2 were successfully completed. Traffic analysis and API enumeration provided valuable insights into application behavior and established a foundation for future vulnerability assessment activities.
+
 ## Author
 
 **Amrit A. Kalmane**
